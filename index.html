@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOUR NAME | Portfolio</title>
+<style>
+  :root{--bg:#fafaf7;--card:#fff;--text:#1f2430;--muted:#5b6475;--accent:#1d6f5f;--line:#e3e3dc}
+  @media (prefers-color-scheme:dark){:root{--bg:#14171c;--card:#1c2027;--text:#eceef2;--muted:#9aa3b2;--accent:#4fc3a8;--line:#2b303a}}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 16px;display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+  nav a{color:var(--muted);text-decoration:none;font-size:.95rem}
+  nav a:hover{color:var(--accent)}
+  header{text-align:center;padding:56px 20px 32px}
+  header h1{margin:0 0 6px;font-size:2rem}
+  header p{margin:0;color:var(--muted)}
+  main{max-width:760px;margin:0 auto;padding:0 16px 48px}
+  section{margin-top:32px}
+  h2{font-size:1.25rem;color:var(--accent);border-bottom:2px solid var(--line);padding-bottom:6px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px}
+  .card h3{margin:0 0 4px;font-size:1.05rem}
+  .card small{color:var(--muted)}
+  .tags span{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 12px;margin:4px 4px 0 0;font-size:.9rem}
+  .btn{display:inline-block;margin-top:12px;background:var(--accent);color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none}
+  footer{text-align:center;color:var(--muted);padding:24px;font-size:.85rem}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <h1>YOUR NAME</h1>
+  <p>MA Applied Linguistics Student | University of Sindh, Jamshoro</p>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Write 2 to 3 sentences about yourself: your interests (for example sociolinguistics, ESP, language teaching), and what you want to do next.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>MA English Applied Linguistics</h3>
+      <small>IEaLL, University of Sindh, Jamshoro | 20XX to Present</small>
+    </div>
+    <div class="card">
+      <h3>BS / Previous Degree</h3>
+      <small>Institution name | Years</small>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="tags">
+      <span>Academic Writing</span>
+      <span>Research</span>
+      <span>Lesson Planning</span>
+      <span>Sociolinguistics</span>
+      <span>ESP Course Design</span>
+      <span>Microsoft Word</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects and Experience</h2>
+    <div class="card">
+      <h3>School Internship</h3>
+      <small>Teaching internship | Add dates</small>
+      <p>Describe what you did and learned in 1 to 2 lines.</p>
+    </div>
+    <div class="card">
+      <h3>Study Notes / Research Project</h3>
+      <small>Course name | Year</small>
+      <p>Describe the project. Add a link if you have one.</p>
+      <a href="#" style="color:var(--accent)">View project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:you@example.com" style="color:var(--accent)">you@example.com</a></p>
+    <a class="btn" href="mailto:you@example.com">Get in touch</a>
+  </section>
+</main>
+
+<footer>&copy; 2026 YOUR NAME</footer>
+
+</body>
+</html>
